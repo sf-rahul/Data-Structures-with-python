@@ -24,3 +24,15 @@ def print_num_1_2_n(n):
 print_num(6)
         
 print_num_1_2_n(6)
+
+
+#printing 1 to n using tail recursion;
+
+def tail_1_2_n(n,k=1):
+    if n<=0:
+        return 1
+    print(k)
+    tail_1_2_n(n-1,k+1)
+
+print('1 to n using tail rec')
+tail_1_2_n(6)
