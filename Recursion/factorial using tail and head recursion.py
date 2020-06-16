@@ -11,6 +11,7 @@ print('head recursin',fact_head(6))
 
 #tail recursion
 #doesn't need to maintain states.
+#python doen't support tail optimization.
 
 def fact_head(n,val=1):
     if n<=1:
