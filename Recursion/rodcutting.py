@@ -6,5 +6,5 @@
 #i/p : n=5 , a=4,b=2,c=6 o/p=-1
 
 
-def road_cutting(n):
+def rod_cutting(n):
     return 
