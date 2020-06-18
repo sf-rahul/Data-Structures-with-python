@@ -17,3 +17,5 @@ def rod_cutting(n,a,b,c):
     return -1 if pieces <0 else 1+pieces
 
 print(rod_cutting(23,12,9,11))
+
+#time complexity : O(3**n)
