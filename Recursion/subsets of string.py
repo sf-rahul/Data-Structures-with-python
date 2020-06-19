@@ -13,6 +13,4 @@ def subsets(s,st="",index = 0):
         subsets(s,st+s[index],index+1)
         
     
-    
-
 subsets("ABCDEFG")
